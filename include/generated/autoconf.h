@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.7
- * Mon Jul  9 18:39:11 2012
+ * Sun Jul 15 13:35:38 2012
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -291,6 +291,7 @@
 #define CONFIG_RTC_HCTOSYS 1
 #define CONFIG_SERIAL_CORE_CONSOLE 1
 #define CONFIG_ARIES_EUR 1
+#define CONFIG_IOSCHED_SIO 1
 #define CONFIG_ANDROID 1
 #define CONFIG_NET_SCH_INGRESS 1
 #define CONFIG_NF_CONNTRACK_EVENTS 1
