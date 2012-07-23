@@ -46,6 +46,14 @@ config IOSCHED_SIO
       basic merging, trying to keep a minimum overhead. It is aimed
       mainly for aleatory access devices (eg: flash devices).
 
+config IOSCHED_VR	
+  tristate "V(R) I/O scheduler"	
+  default y	
+   ---help---	
+   Requests are chosen according to SSTF with a penalty of rev_penalty	
+   for switching head direction.	
+
+
 
 config CFQ_GROUP_IOSCHED
 	bool "CFQ Group Scheduling support"
@@ -69,6 +77,8 @@ choice
 
         config DEFAULT_SIO
  	        bool "SIO" if IOSCHED_SIO=y
+        config DEFAULT_VR	
+                bool "V(R)" if IOSCHED_VR=y
 
 	config DEFAULT_NOOP
 		bool "No-op"
@@ -81,6 +91,7 @@ config DEFAULT_IOSCHED
 	default "cfq" if DEFAULT_CFQ
         default "sio" if DEFAULT_SIO
 	default "noop" if DEFAULT_NOOP
+        default "vr" if DEFAULT_VR
 
 endmenu
 
