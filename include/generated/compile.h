@@ -1,8 +1,8 @@
-/* This file is auto generated, version 10 */
+/* This file is auto generated, version 14 */
 /*  PREEMPT */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#10 PREEMPT Mon Jul 23 11:17:43 KST 2012"
-#define LINUX_COMPILE_TIME "11:17:43"
+#define UTS_VERSION "#14 PREEMPT Thu Jul 26 09:30:36 KST 2012"
+#define LINUX_COMPILE_TIME "09:30:36"
 #define LINUX_COMPILE_BY "youngbindev"
 #define LINUX_COMPILE_HOST "youngbindev-VirtualBox"
 #define LINUX_COMPILE_DOMAIN "(none)"
