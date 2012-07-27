@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.7
- * Thu Jul 26 09:01:20 2012
+ * Fri Jul 27 10:29:33 2012
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -77,6 +77,7 @@
 #define CONFIG_WIRELESS_EXT_SYSFS 1
 #define CONFIG_CRYPTO_HMAC 1
 #define CONFIG_USB_DUN_SUPPORT 1
+#define CONFIG_CPU_FREQ_GOV_SMARTASS2 1
 #define CONFIG_HDMI_HPD 1
 #define CONFIG_BRANCH_PROFILE_NONE 1
 #define CONFIG_PVR_NEED_PVR_DPF 1
